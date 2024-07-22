@@ -1,0 +1,55 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('C:/Users/vp1sh/OneDrive/Desktop/Ai Radio/Ai Radio/wall.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 8rem;
+  color: #fff;
+  font-family: 'Gravitas One', cursive;
+  margin-bottom: 2rem;
+}
+
+button {
+  background-color: #add8e6;
+  color: #333;
+  border: none;
+  border-radius: 50px;
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-style: italic;
+}
+
+button:hover {
+  background-color: #ff0000;
+}
+
+button img {
+  width: 2rem;
+  height: 2rem;
+  margin-right: 0.5rem;
+}
+
+#output {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 2rem;
+}
+
+#info {
+  font-size: 1.2rem;
+  color: #333;
+  margin-top: 1rem;
+}

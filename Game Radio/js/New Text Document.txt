@@ -1,0 +1,18 @@
+window.onload = function () {
+    var page = new Page;
+    page.changeTitlePage();
+    page.setVolume();
+
+    var player = new Player();
+    player.play();
+
+    getStreamingData();
+    // Interval to get streaming data in miliseconds
+    setInterval(function () {
+        getStreamingData();
+    }, 10000);
+
+    var coverArt = document.getElementsByClassName('cover-album')[0];
+
+    coverArt.style.height = coverArt.offsetWidth + 'px';
+}

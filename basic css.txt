@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#mic-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#mic-btn:hover {
+    background-color: #3e8e41;
+}
+
+#output {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.mic-icon {
+    background-color: rgb(255, 0, 140);
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+.listening {
+    animation: pulse 1s linear infinite alternate;
+}
+
+@keyframes pulse {
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+#info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+}
