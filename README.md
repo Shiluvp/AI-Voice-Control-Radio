@@ -16,9 +16,9 @@ This project isnt fully fledged but has basic feature of voice control to channe
   - Play Portugese Radio
   - Gaming Radio
   - Open Gaming Radio
-  - Play Gaming Radio
+  - Play Gaming 
 
 #Screen Shots
-![radio 1](https://github.com/user-attachments/assets/67fb79d2-937c-4a6e-9173-648b94bd150d)
+Radio![Screenshot 2024-07-22 164007](https://github.com/user-attachments/assets/b79ea0d5-26cc-4b8e-b46c-0994315a4b61)
 ![radio2](https://github.com/user-attachments/assets/88811f2a-cc98-4d26-b819-30b2bab2da6b)
 ![radio3](https://github.com/user-attachments/assets/bb8a6b54-454c-4b6c-8e29-1882ecd73b31)
